@@ -1,0 +1,8 @@
+The internet is a series of computers connected to a network that can move data from
+one place to another. When data travels from place to place, it is broken up into packets
+and then the browser collects all the packets in order and displays the page.
+
+When a user clicks on a link, the browser starts a DNS address look up to a DNS server,
+whether it's the local dns cache, local router dns, isp dns, root dns servers. It takes the
+domain name and finds the matching IP address to it. Once it's found, the IP address is then
+sent back to the browser and it requests a connection to the web page server.

@@ -1,0 +1,122 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+button {
+	border-radius: 15px;
+	padding: 10px;
+	border: 3px solid orange;
+	background-color: yellow;
+	color: blue;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+button:hover {
+	cursor: crosshair;
+	color: orange;
+	transform: scale(1.10, 1.10);
+	box-shadow: 0 0 10px rgb(240, 177, 60);
+}
+
+button:active {
+	transform: scale(1, 1);
+	color: red;
+}
+
+.info {
+	text-align: center;
+}
+
+ul {
+	font-size: 20px;
+	font-weight: bold;
+	font-family:'Courier New', Courier, monospace;
+	margin: 10px;
+}
+
+li {
+	font-size: 16px;
+	font-weight: lighter;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom: 5px;
+	margin: 10px;
+}
+.hobbies {
+	background-color: orange;
+	border: 1px solid black;
+	padding: 15px auto;
+}
+
+.about-me {
+	color: blue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.fav-genre {
+	background-color: blue;
+	color: lightgray;
+	border: 1px solid black;
+	padding: 15px auto;
+}
+
+.music {
+	color: orange;
+}
+
+.fav-watch {
+	background-color: orange;
+	border: 1px solid black;
+	padding: 15px auto;
+}
+
+.movies {
+	color: blue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-goals {
+	background-color: blue;
+	color: lightgray;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.goals {
+	margin: 10px;
+}
