@@ -22,3 +22,7 @@ function mouseOver(){
 }
 
 mouseOverCat.addEventListener('mouseover', mouseOver)
+
+//document.querySelector('img').addEventListener('mouseover', ()=> {
+// alert("You're just as cool as this cat!")
+// })

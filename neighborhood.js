@@ -1,4 +1,16 @@
-var myArray = ['club-one', 'club-two', 'club-three', 'club-four']
+var clubArray = ['House of Yes', 'Elsewhere', 'Nowadays', 'Lot45']
 
-const randomPick = array[Math.floor(Math.random() * myArray.length)]
-console.log (randomPick, myArray[randomPick])
+const showClubs = () => {
+	const randomPick = clubArray[Math.floor(Math.random() * clubArray.length)]
+
+	const clubTitle = document.createElement('h3')
+	clubTitle.innerText = randomPick
+	let section = document.querySelector('.randomizer')
+	section.appendChild(clubTitle)
+
+	
+}
+
+const clubButton = document.querySelector('.randomizer')
+
+clubButton.addEventListener('click', showClubs)

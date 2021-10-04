@@ -17,3 +17,4 @@ function favoriteRitual(){
 favColor.addEventListener('click', favoriteColor)
 favPlace.addEventListener('click', favoritePlace)
 favRitual.addEventListener('click', favoriteRitual)
+

@@ -18,40 +18,45 @@
         <h1 class='my-area'>BUSHWICK, BROOKLYN, NYC</h1>
     </header>
 
-    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3XDh0BJiwUfcret1jBTVGp14tKI0brqbZvg&usqp=CAU' id='photo-one' alt='bushwick1'/>
-
-    <p class='bushwick-des'>Bushwick is an edgy, increasingly hip and is an evolving, industrial area marked by imaginative street art and converted warehouses that are home to artist studios and artisanal coffee shops. Dining options span the globe, and avant-garde nightlife thrives in clubs like performance space House of Yes and quirky bars with vintage, mismatched furnishings. A few pocket parks are shaded by mature trees and have playgrounds. </p>
+    <section id ='about-bushwick'>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3XDh0BJiwUfcret1jBTVGp14tKI0brqbZvg&usqp=CAU' id='photo-one' alt='bushwick1'/>
+        <p class='bushwick-desc'>Bushwick is an edgy, increasingly hip and is an evolving, industrial area marked by imaginative street art and converted warehouses that are home to artist studios and artisanal coffee shops. Dining options span the globe, and avant-garde nightlife thrives in clubs like performance space House of Yes and quirky bars with vintage, mismatched furnishings. A few pocket parks are shaded by mature trees and have playgrounds. </p>
+    </section>
 
     <section class='nightlife'>
         <div class='clubs'>Some of the clubs in the area:
             <div class='club-one'>
-                <p class='house-of-yes'>House of Yes</p>
-                <p class='hoy-desc'>Funky venue showcasing dance, circus, theater & cabaret performances in a former ice warehouse.</p>
+                <p id='house-of-yes' class='club-name'>House of Yes</p>
+                <p id='hoy-desc'  class='desc'>Funky venue showcasing dance, circus, theater & cabaret performances in a former ice warehouse.</p>
                 <img src='https://i8.thedjlist.com/articles/photos/2361485/original.jpg' id='hoy-photo' alt='hoy'/>
-                <a href='https://houseofyes.org/'>Check out House of Yes!</a>
+                <a href='https://houseofyes.org/' class='link'><button id='hoyBtn'>Check out House of Yes!</button></a>
             </div>
             <div class='club-two'>
-                <p class='elsewhere'>Elsewhere</p>
-                <p class='elsewhere-desc'>Massive venue featuring several spaces (including a roof terrace) for live music & DJ nights.</p>
+                <p id='elsewhere'class ='club-name'>Elsewhere</p>
+                <p id='elsewhere-desc' class='desc'>Massive venue featuring several spaces (including a roof terrace) for live music & DJ nights.</p>
                 <img src='https://d3nxoulyw7bc8u.cloudfront.net/images/venue/None/03b90483-d93d-4940-927e-5d2f56e5811c.jpg' id='elsewhere-photo' alt='elsewhereb'/>
-                <a href='https://www.elsewherebrooklyn.com/'>Check out Elsewhere!</a>
+                <a href='https://www.elsewherebrooklyn.com/' class='link'><button id='elsewhereBtn'>Check out Elsewhere!</button></a>
             </div>
             <div class='club-three'>
-                <p class='nowadays'>Nowadays</p>
-             <p class='nowadays-desc'>A cool, mod taproom with clever bar bites & local beers, plus a big backyard & late-night DJs.</p>
+                <p id='nowadays' class='club-name'>Nowadays</p>
+                <p id='nowadays-desc' class='desc'>A cool, mod taproom with clever bar bites & local beers, plus a big backyard & late-night DJs.</p>
                 <img src='https://goop-img.com/wp-content/uploads/2018/04/Nowadays-5_preview.jpeg' id='nowadays-photo' alt='nowadaysb'/>
-                <a href='https://nowadays.nyc/'>Check out Nowadays!</a>
+                <a href='https://nowadays.nyc/' class='link'><button id='nowadaysBtn'>Check out Nowadays!</button></a>
             </div>
             <div class='club-four'>
-                <p class='lot45'>Lot45</p>
-                <p class='lot45-desc'>A relaxed Bar Lounge & Restaurant - Bushwick's own local living room, serving distinctive cocktails and a savory French Algerian inspired menu.</p>
+                <p id='lot45' class='club-name'>Lot45</p>
+                <p id='lot45-desc' class='desc'>A relaxed Bar Lounge & Restaurant - Bushwick's own local living room, serving distinctive cocktails.</p>
                 <img src='https://images.squarespace-cdn.com/content/v1/52c651d5e4b0ca96fb3d2251/1605207977394-AFFMNCWCRWL7RT7W9EBA/LOT45+FUJI+CAM-9.jpg?format=1000w' id='lot45-photo' alt='lot'/>
-                <a href='http://www.lot45bushwick.com/'>Check out Lot45!</a>
+                <a href='http://www.lot45bushwick.com/' class='link'><button id='lotBtn'>Check out Lot45!</button></a>
             </div>
         </div>
     </section>
-    
+
+
+    <section class='random-picks'>
         <button class='randomizer'>Request a random club recommendation</button>
+    </section>
+
 
         <script src="neighborhood.js"></script>
 </body>
